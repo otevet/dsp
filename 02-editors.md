@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The terminal editor I prefer to use is vim. I made my decision based on this assignment, using the three editors listed. It feels that vim is intuitive, user friendly, and useful.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The graphical editor I will use is Atom. I've used it a bit in the past. The interesting features about Atom are that it has a clean, modern interface, it's versatile, customizable and integrates nicely with GitHub.  
 
- 
+It seems like the most useful keyboard shortcut is command-shift-p, which opens up the command palette. In the command palette, are listed all the keyboard shortcuts for reference. Customizing Atom is done either by choosing a theme or using CSS. 
