@@ -19,7 +19,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd: show current working directory path: 
+mkdir: creating a directory
+rmdir: removing a directory 
+touch: make a new empty file 
+rm: removing a file
+mv: renaming a file
+ls -ld .?*    listing hidden files
+cp: copy  afile from one directory to another
+man: manual
+clear: clears the current window
+
 
 ---
 
@@ -34,15 +44,29 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+ls		lists files
+ls -a		lists all files, including hidden ones
+ls -l  		lists files in a long format, containing additional useful information 
+ls -lh 		list long format with readable file size
+ls -lah  	list long format with readable file size, includes hidden files
+ls -t		list by time and date
+ls -Glp 	G inhibits the display of group information, l displays the contents in long format, and p displays directories with '/'
+
 
 ---
+
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -d	displays only directories
+ls -R 		displays subdirectories as well
+ls -1 		displays each entry on a line
+ls -c 	 	displays files by file timestamp
+ls -u 		displays files by the file access time
 
 ---
 
@@ -50,7 +74,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs reads in items from standard input (stdin) and executes a command (default is /bin/echo) with any given initial arguments. For example, the xargs can be used with the grep and find commands:
 
- 
+find . -name "*.txt" | xargs grep "data"
+
+The above command finds all text files from the current directory, and within each file, looks for occurences of "data". xargs unpacks arguments and feeds them into commands, one by one.
 
