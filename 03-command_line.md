@@ -20,15 +20,34 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > > pwd: show current working directory path: 
+
+
 mkdir: creating a directory
+
+
 rmdir: removing a directory 
+
+
 touch: make a new empty file 
+
+
 rm: removing a file
+
+
 mv: renaming a file
+
+
 ls -ld .?*    listing hidden files
+
+
 cp: copy  afile from one directory to another
+
+
 man: manual
+
+
 clear: clears the current window
+
 
 
 ---
