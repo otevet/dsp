@@ -21,8 +21,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > pwd: show current working directory path: 
 mkdir: creating a directory  
-rmdir: removing a directory 
-touch: make a new empty file   
+rmdir: removing a directory  
+touch: make a new empty file  
 rm: removing a file  
 mv: renaming a file  
 ls -ld .?*    listing hidden files  
